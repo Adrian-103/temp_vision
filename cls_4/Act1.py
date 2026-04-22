@@ -28,7 +28,7 @@ V_blue_up_limit = 255
 
 if __name__=="__main__":
     #cap = cv.VideoCapture(2)
-    video_path = 'videos/sample_video.mp4'
+    video_path = '/home/ubuntu/temp_vision/cls_4/sample_video.mp4'
     cap = cv.VideoCapture(video_path)
 
     if not cap.isOpened():
